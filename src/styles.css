@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  position: relative;
+  height: 80vh;
+  width: 85vw;
+  margin: 10vh auto;
+  border: 15px ridge purple;
+}
+#ball {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  background: radial-gradient(blue, green);
+}
